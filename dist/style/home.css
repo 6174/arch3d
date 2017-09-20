@@ -1,0 +1,282 @@
+/* Basic Colors */
+/* border Colors */
+/* font-color */
+.app-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #323232;
+}
+.app-container .app-top {
+  height: 40px;
+  border-bottom: solid 1px #232323;
+  background: #323232;
+  padding: 10px;
+}
+.app-container .app-top .logo {
+  font-size: 15px;
+}
+.app-container .app-top .logo i {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.app-container .app-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
+  bottom: 40px;
+}
+.app-container .app-center .app-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 230px;
+  bottom: 220px;
+  background: #262626;
+}
+.app-container .app-center .app-main .arc3d-react-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.app-container .app-center .app-right-toolbar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 230px;
+  border-left: solid 1px #232323;
+  padding: 4px;
+}
+.app-container .app-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  border-top: solid 1px #232323;
+}
+.app-container .app-bottom-plugin-container {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 230px;
+  border-top: solid 1px #232323;
+  height: 220px;
+  background: #323232;
+}
+.abs {
+  position: absolute;
+}
+.app-top .title {
+  text-align: center;
+  padding-right: 10%;
+}
+.app-top .ant-select {
+  text-align: left;
+  position: relative;
+  bottom: 1px;
+  background: transparent;
+}
+.app-top .ant-select .ant-select-selection {
+  background: transparent;
+  border: none;
+}
+.app-bottom-plugin-list ul li {
+  display: inline-block;
+  padding: 3px 15px;
+  -webkit-user-select: none;
+  cursor: default;
+}
+.app-bottom-plugin-list ul li:hover,
+.app-bottom-plugin-list ul li.active {
+  background-color: #262626;
+}
+.app-bottom-plugin-container {
+  padding: 3px 8px;
+  overflow-y: auto;
+}
+.app-bottom-plugin-container .panel-header {
+  padding-left: 30px;
+}
+.point {
+  display: inline-block;
+  margin: 0 5px;
+  width: 8px;
+  height: 8px;
+  background: #23befa;
+}
+.point-warning {
+  background: #FFAA00;
+}
+.point-success {
+  background: #87D068;
+}
+.point-danger {
+  background: #FF0000;
+}
+.panel-detail {
+  padding: 5px;
+}
+.panel-detail h3 {
+  margin: 17px 0;
+  color: #565656;
+}
+.panel-detail .relations ul li {
+  border-bottom: solid 1px #232323;
+  padding: 5px;
+}
+.panel-detail .relations ul li i {
+  float: right;
+}
+.panel-detail .relations p {
+  margin: 15px 0;
+}
+.panel-view-setting > div {
+  height: 100%;
+}
+.panel-view-setting > div > div {
+  height: 100%;
+  padding: 15px;
+  overflow-y: auto;
+}
+.panel-view-setting .controls {
+  border-right: solid 1px #232323;
+}
+.panel-view-setting .controls ul li {
+  padding: 10px 0;
+}
+.panel-view-setting .list li.ant-row {
+  position: relative;
+  padding: 10px 0;
+  border-bottom: solid 1px #232323;
+}
+.panel-view-setting .list li.ant-row > i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+}
+.panel-view-setting .list li.ant-row img {
+  width: 100%;
+}
+.panel-view-setting .list li.ant-row .list-item-detail {
+  padding: 0 15px;
+}
+.app-right-toolbar {
+  overflow-y: auto;
+}
+.toggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  text-align: center;
+  padding: 3px 0;
+  border: solid 1px #232323;
+  background: #262626;
+}
+.toggle i {
+  font-size: 12px;
+  -ms-transform: scale(0.7);
+      transform: scale(0.7);
+}
+.toggle.down i {
+  -ms-transform: rotate(90deg) scale(0.7);
+      transform: rotate(90deg) scale(0.7);
+}
+.toggle.up i {
+  -ms-transform: rotate(-90deg) scale(0.7);
+      transform: rotate(-90deg) scale(0.7);
+}
+.toggle.left i {
+  -ms-transform: rotate(180deg) scale(0.7);
+      transform: rotate(180deg) scale(0.7);
+}
+.ant-table {
+  border-color: #585858;
+}
+.ant-table-thead > tr > th {
+  background: transparent !important;
+  border-color: #585858 !important;
+}
+.ant-table .ant-table-tbody > tr > td {
+  border-color: #585858;
+}
+.ant-table .ant-table-tbody > tr.ant-table-row-hover,
+.ant-table .ant-table-tbody > tr:hover,
+.ant-table .ant-table-thead > tr.ant-table-row-hover,
+.ant-table .ant-table-thead > tr:hover {
+  background-color: transparent;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #9C9B9B;
+}
+table {
+  font-size: inherit;
+}
+.ant-checkbox-inner {
+  background-color: transparent;
+}
+div#canvas-frame {
+  border: none;
+  cursor: pointer;
+  width: 100vw;
+  height: 100vh;
+}
+.control-panel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 88px;
+  padding: 20px;
+  background: rgba(0, 134, 243, 0.71);
+  border-top: #868484 solid 1px;
+}
+.control-panel .ant-btn {
+  color: white;
+}
+#NodeInfo {
+  padding: 15px;
+  background: #0086f3;
+  position: absolute;
+  width: 200px;
+  height: auto;
+  z-index: 1001;
+  color: #fff;
+  z-index: 0;
+  opacity: 0;
+  transition: all ease-out 0.3s;
+  padding-left: 10px;
+  left: 0;
+  top: 0;
+  text-shadow: 1px 1px 2px #427388;
+}
+:-webkit-any(select.form-control) {
+  -webkit-appearance: none;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAFCAMAAACdH1c/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFRUpR////m74sLQAAAAJ0Uk5T/wDltzBKAAAAJklEQVR42mJgYAQDKAUFDAwMEApVFCyAJsgIFkIXBJuHIcgIEGAAEyUAWsvQ8r0AAAAASUVORK5CYII=);
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.07);
+}
+::-webkit-scrollbar-thumb {
+  border-width: 10px;
+  border-radius: 10px;
+  background: rgba(106, 106, 106, 0.52);
+  -webkit-box-shadow: inset 0 0 4px rgba(173, 173, 173, 0.5);
+}

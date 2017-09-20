@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-07-27T13:55:57Z</created><keywords></keywords><modified>2016-07-27T13:55:57Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="server_3-image" name="server_3"><init_from>file:///Users/udesign_johnny/Downloads/AutoMap绘图面板/3d 部分对应图标/server.png</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="blinn1" name="blinn1">
+      <instance_effect url="#blinn1-fx"/>
+    </material>
+    <material id="pasted__pasted__pasted__blinn1" name="pasted__pasted__pasted__blinn1">
+      <instance_effect url="#pasted__pasted__pasted__blinn1-fx"/>
+    </material>
+    <material id="pasted__pasted__pasted__pasted__blinn1" name="pasted__pasted__pasted__pasted__blinn1">
+      <instance_effect url="#pasted__pasted__pasted__pasted__blinn1-fx"/>
+    </material>
+    <material id="pasted__blinn1" name="pasted__blinn1">
+      <instance_effect url="#pasted__blinn1-fx"/>
+    </material>
+    <material id="pasted__pasted__blinn1" name="pasted__pasted__blinn1">
+      <instance_effect url="#pasted__pasted__blinn1-fx"/>
+    </material>
+    <material id="lambert2" name="lambert2">
+      <instance_effect url="#lambert2-fx"/>
+    </material>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn1-fx" name="blinn1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.358617 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.152480</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="pasted__pasted__pasted__blinn1-fx" name="pasted__pasted__pasted__blinn1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.218769 0.642283 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.152480</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="pasted__pasted__pasted__pasted__blinn1-fx" name="pasted__pasted__pasted__pasted__blinn1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.247800 0.829200 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.152480</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="pasted__blinn1-fx" name="pasted__blinn1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.121106 0.439000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.152480</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="pasted__pasted__blinn1-fx" name="pasted__pasted__blinn1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.152056 0.552850 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.152480</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert2-fx" name="lambert2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="server_3-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.886183  0.886183 0.886183 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface9-lib" name="polySurface9Mesh">
+      <mesh>
+        <source id="polySurface9-POSITION">
+          <float_array id="polySurface9-POSITION-array" count="12">
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface9-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9-Normal0">
+          <float_array id="polySurface9-Normal0-array" count="12">
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface9-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9-UV0">
+          <float_array id="polySurface9-UV0-array" count="8">
+0.548439 0.459312
+0.992013 0.459312
+0.992013 0.902886
+0.548439 0.902886
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface9-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface9-VERTEX">
+          <input semantic="POSITION" source="#polySurface9-POSITION"/>
+          <input semantic="NORMAL" source="#polySurface9-Normal0"/>
+        </vertices>
+        <triangles count="2" material="blinn1"><input semantic="VERTEX" offset="0" source="#polySurface9-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#polySurface9-UV0"/><p> 1 2 0 3 2 0 1 2 2 0 3 1</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface7-lib" name="polySurface7Mesh">
+      <mesh>
+        <source id="polySurface7-POSITION">
+          <float_array id="polySurface7-POSITION-array" count="12">
+0.500000 -0.145490 0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 -0.145490 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface7-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface7-Normal0">
+          <float_array id="polySurface7-Normal0-array" count="12">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface7-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface7-UV0">
+          <float_array id="polySurface7-UV0-array" count="8">
+0.007988 0.450807
+0.007988 0.007233
+0.220255 0.007233
+0.220255 0.450807
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface7-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface7-VERTEX">
+          <input semantic="POSITION" source="#polySurface7-POSITION"/>
+          <input semantic="NORMAL" source="#polySurface7-Normal0"/>
+        </vertices>
+        <triangles count="2" material="pasted__pasted__pasted__blinn1"><input semantic="VERTEX" offset="0" source="#polySurface7-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#polySurface7-UV0"/><p> 0 2 3 3 1 0 0 2 1 0 2 1</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface10-lib" name="polySurface10Mesh">
+      <mesh>
+        <source id="polySurface10-POSITION">
+          <float_array id="polySurface10-POSITION-array" count="12">
+-0.500000 -0.145490 0.500000
+-0.500000 -0.145490 -0.500000
+-0.500000 -0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface10-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface10-Normal0">
+          <float_array id="polySurface10-Normal0-array" count="12">
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface10-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface10-UV0">
+          <float_array id="polySurface10-UV0-array" count="8">
+0.111781 0.902886
+0.111781 0.459312
+0.324049 0.459312
+0.324049 0.902886
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface10-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface10-VERTEX">
+          <input semantic="POSITION" source="#polySurface10-POSITION"/>
+          <input semantic="NORMAL" source="#polySurface10-Normal0"/>
+        </vertices>
+        <triangles count="2" material="pasted__pasted__pasted__pasted__blinn1"><input semantic="VERTEX" offset="0" source="#polySurface10-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#polySurface10-UV0"/><p> 0 2 2 0 3 1 2 0 0 2 1 3</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface6-lib" name="polySurface6Mesh">
+      <mesh>
+        <source id="polySurface6-POSITION">
+          <float_array id="polySurface6-POSITION-array" count="12">
+0.500000 -0.145490 -0.500000
+0.500000 -0.500000 0.500000
+0.500000 -0.500000 -0.500000
+0.500000 -0.145490 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface6-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface6-Normal0">
+          <float_array id="polySurface6-Normal0-array" count="12">
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface6-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface6-UV0">
+          <float_array id="polySurface6-UV0-array" count="8">
+0.330110 0.902886
+0.330110 0.459312
+0.542377 0.459312
+0.542377 0.902886
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface6-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface6-VERTEX">
+          <input semantic="POSITION" source="#polySurface6-POSITION"/>
+          <input semantic="NORMAL" source="#polySurface6-Normal0"/>
+        </vertices>
+        <triangles count="2" material="pasted__blinn1"><input semantic="VERTEX" offset="0" source="#polySurface6-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#polySurface6-UV0"/><p> 0 2 3 3 1 0 1 0 2 1 0 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface4-lib" name="polySurface4Mesh">
+      <mesh>
+        <source id="polySurface4-POSITION">
+          <float_array id="polySurface4-POSITION-array" count="12">
+0.500000 -0.145490 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 -0.500000 -0.500000
+-0.500000 -0.145490 -0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface4-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface4-Normal0">
+          <float_array id="polySurface4-Normal0-array" count="12">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface4-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface4-UV0">
+          <float_array id="polySurface4-UV0-array" count="8">
+0.678250 0.450807
+0.678250 0.007233
+0.890517 0.007233
+0.890517 0.450807
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface4-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface4-VERTEX">
+          <input semantic="POSITION" source="#polySurface4-POSITION"/>
+          <input semantic="NORMAL" source="#polySurface4-Normal0"/>
+        </vertices>
+        <triangles count="2" material="pasted__pasted__blinn1"><input semantic="VERTEX" offset="0" source="#polySurface4-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#polySurface4-UV0"/><p> 1 2 2 3 3 0 1 2 3 0 0 1</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface2-lib" name="polySurface2Mesh">
+      <mesh>
+        <source id="polySurface2-POSITION">
+          <float_array id="polySurface2-POSITION-array" count="12">
+-0.500000 -0.145490 0.500000
+0.500000 -0.145490 0.500000
+0.500000 -0.145490 -0.500000
+-0.500000 -0.145490 -0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface2-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface2-Normal0">
+          <float_array id="polySurface2-Normal0-array" count="12">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface2-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface2-UV0">
+          <float_array id="polySurface2-UV0-array" count="8">
+0.004371 0.006641
+0.994301 0.006641
+0.994301 0.996570
+0.004371 0.996570
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface2-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface2-VERTEX">
+          <input semantic="POSITION" source="#polySurface2-POSITION"/>
+          <input semantic="NORMAL" source="#polySurface2-Normal0"/>
+        </vertices>
+        <triangles count="2" material="lambert2"><input semantic="VERTEX" offset="0" source="#polySurface2-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#polySurface2-UV0"/><p> 1 1 2 2 0 0 0 0 2 2 3 3</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pPlane3-lib" name="pPlane3Mesh">
+      <mesh>
+        <source id="pPlane3-POSITION">
+          <float_array id="pPlane3-POSITION-array" count="363">
+-0.500000 -0.000000 0.500000
+-0.400000 -0.000000 0.500000
+-0.300000 -0.000000 0.500000
+-0.200000 -0.000000 0.500000
+-0.100000 -0.000000 0.500000
+0.000000 -0.000000 0.500000
+0.100000 -0.000000 0.500000
+0.200000 -0.000000 0.500000
+0.300000 -0.000000 0.500000
+0.400000 -0.000000 0.500000
+0.500000 -0.000000 0.500000
+-0.500000 -0.000000 0.400000
+-0.400000 -0.000000 0.400000
+-0.300000 -0.000000 0.400000
+-0.200000 -0.000000 0.400000
+-0.100000 -0.000000 0.400000
+0.000000 -0.000000 0.400000
+0.100000 -0.000000 0.400000
+0.200000 -0.000000 0.400000
+0.300000 -0.000000 0.400000
+0.400000 -0.000000 0.400000
+0.500000 -0.000000 0.400000
+-0.500000 -0.000000 0.300000
+-0.400000 -0.000000 0.300000
+-0.300000 -0.000000 0.300000
+-0.200000 -0.000000 0.300000
+-0.100000 -0.000000 0.300000
+0.000000 -0.000000 0.300000
+0.100000 -0.000000 0.300000
+0.200000 -0.000000 0.300000
+0.300000 -0.000000 0.300000
+0.400000 -0.000000 0.300000
+0.500000 -0.000000 0.300000
+-0.500000 -0.000000 0.200000
+-0.400000 -0.000000 0.200000
+-0.300000 -0.000000 0.200000
+-0.200000 -0.000000 0.200000
+-0.100000 -0.000000 0.200000
+0.000000 -0.000000 0.200000
+0.100000 -0.000000 0.200000
+0.200000 -0.000000 0.200000
+0.300000 -0.000000 0.200000
+0.400000 -0.000000 0.200000
+0.500000 -0.000000 0.200000
+-0.500000 -0.000000 0.100000
+-0.400000 -0.000000 0.100000
+-0.300000 -0.000000 0.100000
+-0.200000 -0.000000 0.100000
+-0.100000 -0.000000 0.100000
+0.000000 -0.000000 0.100000
+0.100000 -0.000000 0.100000
+0.200000 -0.000000 0.100000
+0.300000 -0.000000 0.100000
+0.400000 -0.000000 0.100000
+0.500000 -0.000000 0.100000
+-0.500000 0.000000 0.000000
+-0.400000 0.000000 0.000000
+-0.300000 0.000000 0.000000
+-0.200000 0.000000 0.000000
+-0.100000 0.000000 0.000000
+0.000000 0.000000 0.000000
+0.100000 0.000000 0.000000
+0.200000 0.000000 0.000000
+0.300000 0.000000 0.000000
+0.400000 0.000000 0.000000
+0.500000 0.000000 0.000000
+-0.500000 0.000000 -0.100000
+-0.400000 0.000000 -0.100000
+-0.300000 0.000000 -0.100000
+-0.200000 0.000000 -0.100000
+-0.100000 0.000000 -0.100000
+0.000000 0.000000 -0.100000
+0.100000 0.000000 -0.100000
+0.200000 0.000000 -0.100000
+0.300000 0.000000 -0.100000
+0.400000 0.000000 -0.100000
+0.500000 0.000000 -0.100000
+-0.500000 0.000000 -0.200000
+-0.400000 0.000000 -0.200000
+-0.300000 0.000000 -0.200000
+-0.200000 0.000000 -0.200000
+-0.100000 0.000000 -0.200000
+0.000000 0.000000 -0.200000
+0.100000 0.000000 -0.200000
+0.200000 0.000000 -0.200000
+0.300000 0.000000 -0.200000
+0.400000 0.000000 -0.200000
+0.500000 0.000000 -0.200000
+-0.500000 0.000000 -0.300000
+-0.400000 0.000000 -0.300000
+-0.300000 0.000000 -0.300000
+-0.200000 0.000000 -0.300000
+-0.100000 0.000000 -0.300000
+0.000000 0.000000 -0.300000
+0.100000 0.000000 -0.300000
+0.200000 0.000000 -0.300000
+0.300000 0.000000 -0.300000
+0.400000 0.000000 -0.300000
+0.500000 0.000000 -0.300000
+-0.500000 0.000000 -0.400000
+-0.400000 0.000000 -0.400000
+-0.300000 0.000000 -0.400000
+-0.200000 0.000000 -0.400000
+-0.100000 0.000000 -0.400000
+0.000000 0.000000 -0.400000
+0.100000 0.000000 -0.400000
+0.200000 0.000000 -0.400000
+0.300000 0.000000 -0.400000
+0.400000 0.000000 -0.400000
+0.500000 0.000000 -0.400000
+-0.500000 0.000000 -0.500000
+-0.400000 0.000000 -0.500000
+-0.300000 0.000000 -0.500000
+-0.200000 0.000000 -0.500000
+-0.100000 0.000000 -0.500000
+0.000000 0.000000 -0.500000
+0.100000 0.000000 -0.500000
+0.200000 0.000000 -0.500000
+0.300000 0.000000 -0.500000
+0.400000 0.000000 -0.500000
+0.500000 0.000000 -0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#pPlane3-POSITION-array" count="121" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane3-Normal0">
+          <float_array id="pPlane3-Normal0-array" count="363">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pPlane3-Normal0-array" count="121" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane3-UV0">
+          <float_array id="pPlane3-UV0-array" count="242">
+0.000000 0.000000
+0.100000 0.000000
+0.200000 0.000000
+0.300000 0.000000
+0.400000 0.000000
+0.500000 0.000000
+0.600000 0.000000
+0.700000 0.000000
+0.800000 0.000000
+0.900000 0.000000
+1.000000 0.000000
+0.000000 0.100000
+0.100000 0.100000
+0.200000 0.100000
+0.300000 0.100000
+0.400000 0.100000
+0.500000 0.100000
+0.600000 0.100000
+0.700000 0.100000
+0.800000 0.100000
+0.900000 0.100000
+1.000000 0.100000
+0.000000 0.200000
+0.100000 0.200000
+0.200000 0.200000
+0.300000 0.200000
+0.400000 0.200000
+0.500000 0.200000
+0.600000 0.200000
+0.700000 0.200000
+0.800000 0.200000
+0.900000 0.200000
+1.000000 0.200000
+0.000000 0.300000
+0.100000 0.300000
+0.200000 0.300000
+0.300000 0.300000
+0.400000 0.300000
+0.500000 0.300000
+0.600000 0.300000
+0.700000 0.300000
+0.800000 0.300000
+0.900000 0.300000
+1.000000 0.300000
+0.000000 0.400000
+0.100000 0.400000
+0.200000 0.400000
+0.300000 0.400000
+0.400000 0.400000
+0.500000 0.400000
+0.600000 0.400000
+0.700000 0.400000
+0.800000 0.400000
+0.900000 0.400000
+1.000000 0.400000
+0.000000 0.500000
+0.100000 0.500000
+0.200000 0.500000
+0.300000 0.500000
+0.400000 0.500000
+0.500000 0.500000
+0.600000 0.500000
+0.700000 0.500000
+0.800000 0.500000
+0.900000 0.500000
+1.000000 0.500000
+0.000000 0.600000
+0.100000 0.600000
+0.200000 0.600000
+0.300000 0.600000
+0.400000 0.600000
+0.500000 0.600000
+0.600000 0.600000
+0.700000 0.600000
+0.800000 0.600000
+0.900000 0.600000
+1.000000 0.600000
+0.000000 0.700000
+0.100000 0.700000
+0.200000 0.700000
+0.300000 0.700000
+0.400000 0.700000
+0.500000 0.700000
+0.600000 0.700000
+0.700000 0.700000
+0.800000 0.700000
+0.900000 0.700000
+1.000000 0.700000
+0.000000 0.800000
+0.100000 0.800000
+0.200000 0.800000
+0.300000 0.800000
+0.400000 0.800000
+0.500000 0.800000
+0.600000 0.800000
+0.700000 0.800000
+0.800000 0.800000
+0.900000 0.800000
+1.000000 0.800000
+0.000000 0.900000
+0.100000 0.900000
+0.200000 0.900000
+0.300000 0.900000
+0.400000 0.900000
+0.500000 0.900000
+0.600000 0.900000
+0.700000 0.900000
+0.800000 0.900000
+0.900000 0.900000
+1.000000 0.900000
+0.000000 1.000000
+0.100000 1.000000
+0.200000 1.000000
+0.300000 1.000000
+0.400000 1.000000
+0.500000 1.000000
+0.600000 1.000000
+0.700000 1.000000
+0.800000 1.000000
+0.900000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pPlane3-UV0-array" count="121" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pPlane3-VERTEX">
+          <input semantic="POSITION" source="#pPlane3-POSITION"/>
+          <input semantic="NORMAL" source="#pPlane3-Normal0"/>
+        </vertices>
+        <triangles count="200" material="lambert1"><input semantic="VERTEX" offset="0" source="#pPlane3-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#pPlane3-UV0"/><p> 1 1 12 12 0 0 0 0 12 12 11 11 2 2 13 13 1 1 1 1 13 13 12 12 3 3 14 14 2 2 2 2 14 14 13 13 4 4 15 15 3 3 3 3 15 15 14 14 5 5 16 16 4 4 4 4 16 16 15 15 6 6 17 17 5 5 5 5 17 17 16 16 7 7 18 18 6 6 6 6 18 18 17 17 8 8 19 19 7 7 7 7 19 19 18 18 9 9 20 20 8 8 8 8 20 20 19 19 10 10 21 21 9 9 9 9 21 21 20 20 12 12 23 23 11 11 11 11 23 23 22 22 13 13 24 24 12 12 12 12 24 24 23 23 14 14 25 25 13 13 13 13 25 25 24 24 15 15 26 26 14 14 14 14 26 26 25 25 16 16 27 27 15 15 15 15 27 27 26 26 17 17 28 28 16 16 16 16 28 28 27 27 18 18 29 29 17 17 17 17 29 29 28 28 19 19 30 30 18 18 18 18 30 30 29 29 20 20 31 31 19 19 19 19 31 31 30 30 21 21 32 32 20 20 20 20 32 32 31 31 34 34 22 22 23 23 22 22 34 34 33 33 35 35 23 23 24 24 23 23 35 35 34 34 25 25 36 36 24 24 24 24 36 36 35 35 26 26 37 37 25 25 25 25 37 37 36 36 27 27 38 38 26 26 26 26 38 38 37 37 39 39 27 27 28 28 27 27 39 39 38 38 29 29 40 40 28 28 28 28 40 40 39 39 41 41 29 29 30 30 29 29 41 41 40 40 42 42 30 30 31 31 30 30 42 42 41 41 43 43 31 31 32 32 31 31 43 43 42 42 34 34 45 45 33 33 33 33 45 45 44 44 35 35 46 46 34 34 34 34 46 46 45 45 36 36 47 47 35 35 35 35 47 47 46 46 37 37 48 48 36 36 36 36 48 48 47 47 38 38 49 49 37 37 37 37 49 49 48 48 39 39 50 50 38 38 38 38 50 50 49 49 40 40 51 51 39 39 39 39 51 51 50 50 41 41 52 52 40 40 40 40 52 52 51 51 42 42 53 53 41 41 41 41 53 53 52 52 43 43 54 54 42 42 42 42 54 54 53 53 45 45 56 56 44 44 44 44 56 56 55 55 46 46 57 57 45 45 45 45 57 57 56 56 47 47 58 58 46 46 46 46 58 58 57 57 48 48 59 59 47 47 47 47 59 59 58 58 49 49 60 60 48 48 48 48 60 60 59 59 50 50 61 61 49 49 49 49 61 61 60 60 51 51 62 62 50 50 50 50 62 62 61 61 52 52 63 63 51 51 51 51 63 63 62 62 53 53 64 64 52 52 52 52 64 64 63 63 54 54 65 65 53 53 53 53 65 65 64 64 67 67 55 55 56 56 55 55 67 67 66 66 68 68 56 56 57 57 56 56 68 68 67 67 58 58 69 69 57 57 57 57 69 69 68 68 59 59 70 70 58 58 58 58 70 70 69 69 60 60 71 71 59 59 59 59 71 71 70 70 72 72 60 60 61 61 60 60 72 72 71 71 62 62 73 73 61 61 61 61 73 73 72 72 74 74 62 62 63 63 62 62 74 74 73 73 75 75 63 63 64 64 63 63 75 75 74 74 76 76 64 64 65 65 64 64 76 76 75 75 78 78 66 66 67 67 66 66 78 78 77 77 79 79 67 67 68 68 67 67 79 79 78 78 69 69 80 80 68 68 68 68 80 80 79 79 81 81 69 69 70 70 69 69 81 81 80 80 82 82 70 70 71 71 70 70 82 82 81 81 72 72 83 83 71 71 71 71 83 83 82 82 73 73 84 84 72 72 72 72 84 84 83 83 74 74 85 85 73 73 73 73 85 85 84 84 86 86 74 74 75 75 74 74 86 86 85 85 76 76 87 87 75 75 75 75 87 87 86 86 89 89 77 77 78 78 77 77 89 89 88 88 90 90 78 78 79 79 78 78 90 90 89 89 80 80 91 91 79 79 79 79 91 91 90 90 81 81 92 92 80 80 80 80 92 92 91 91 82 82 93 93 81 81 81 81 93 93 92 92 94 94 82 82 83 83 82 82 94 94 93 93 84 84 95 95 83 83 83 83 95 95 94 94 96 96 84 84 85 85 84 84 96 96 95 95 97 97 85 85 86 86 85 85 97 97 96 96 98 98 86 86 87 87 86 86 98 98 97 97 100 100 88 88 89 89 88 88 100 100 99 99 101 101 89 89 90 90 89 89 101 101 100 100 91 91 102 102 90 90 90 90 102 102 101 101 92 92 103 103 91 91 91 91 103 103 102 102 93 93 104 104 92 92 92 92 104 104 103 103 105 105 93 93 94 94 93 93 105 105 104 104 95 95 106 106 94 94 94 94 106 106 105 105 107 107 95 95 96 96 95 95 107 107 106 106 108 108 96 96 97 97 96 96 108 108 107 107 109 109 97 97 98 98 97 97 109 109 108 108 111 111 99 99 100 100 99 99 111 111 110 110 112 112 100 100 101 101 100 100 112 112 111 111 102 102 113 113 101 101 101 101 113 113 112 112 114 114 102 102 103 103 102 102 114 114 113 113 115 115 103 103 104 104 103 103 115 115 114 114 105 105 116 116 104 104 104 104 116 116 115 115 117 117 105 105 106 106 105 105 117 117 116 116 107 107 118 118 106 106 106 106 118 118 117 117 119 119 107 107 108 108 107 107 119 119 118 118 120 120 108 108 109 109 108 108 120 120 119 119</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="tast_icon" name="tast_icon">
+      <node name="pCube1" id="pCube1" sid="pCube1"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.630818 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="polySurface1" id="polySurface1" sid="polySurface1"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="polySurface3" id="polySurface3" sid="polySurface3"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="polySurface5" id="polySurface5" sid="polySurface5"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="polySurface8" id="polySurface8" sid="polySurface8"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="polySurface9" id="polySurface9" sid="polySurface9"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#polySurface9-lib"><bind_material><technique_common><instance_material symbol="blinn1" target="#blinn1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="transform5" id="transform5" sid="transform5"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node></node><node name="transform4" id="transform4" sid="transform4"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node></node><node name="transform3" id="transform3" sid="transform3"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node></node><node name="transform2" id="transform2" sid="transform2"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node><node name="group1" id="group1" sid="group1"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="polySurface7" id="polySurface7" sid="polySurface7"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#polySurface7-lib"><bind_material><technique_common><instance_material symbol="pasted__pasted__pasted__blinn1" target="#pasted__pasted__pasted__blinn1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="polySurface10" id="polySurface10" sid="polySurface10"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#polySurface10-lib"><bind_material><technique_common><instance_material symbol="pasted__pasted__pasted__pasted__blinn1" target="#pasted__pasted__pasted__pasted__blinn1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="polySurface6" id="polySurface6" sid="polySurface6"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#polySurface6-lib"><bind_material><technique_common><instance_material symbol="pasted__blinn1" target="#pasted__blinn1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="polySurface4" id="polySurface4" sid="polySurface4"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#polySurface4-lib"><bind_material><technique_common><instance_material symbol="pasted__pasted__blinn1" target="#pasted__pasted__blinn1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node></node><node name="polySurface2" id="polySurface2" sid="polySurface2"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#polySurface2-lib"><bind_material><technique_common><instance_material symbol="lambert2" target="#lambert2"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="transform1" id="transform1" sid="transform1"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node></node>
+      <node name="pPlane3" id="pPlane3" sid="pPlane3"><matrix sid="matrix">1.096290 0.000000 0.000000 0.036535 0.000000 1.250231 0.000000 0.123849 0.000000 0.000000 1.090602 -0.039928 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#pPlane3-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#tast_icon"></instance_visual_scene>
+  </scene>
+</COLLADA>
