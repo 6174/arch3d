@@ -1,0 +1,35 @@
+.app-right-toolbar {
+	overflow-y: auto;
+}
+
+.toggle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	text-align: center;
+	padding: 3px 0;
+	border: @border;
+	background: @color-bg-d1;
+	i {
+		font-size: 12px;
+		transform: scale(.7);
+	}
+	
+	&.down {
+		i {
+		    transform: rotate(90deg) scale(.7);
+		}
+	}
+	&.up {
+		i {
+			transform: rotate(-90deg) scale(.7);
+		}
+	}
+
+	&.left {
+		i {
+			transform: rotate(180deg) scale(.7);
+		}
+	}
+}

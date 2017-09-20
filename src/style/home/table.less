@@ -1,0 +1,15 @@
+.ant-table {
+	@border-color: #585858;
+	border-color: @border-color;
+	&-thead>tr>th {
+		background: transparent !important;
+		border-color: @border-color !important;
+	}
+	.ant-table-tbody>tr>td {
+		border-color: @border-color;
+	}
+
+	.ant-table-tbody>tr.ant-table-row-hover, .ant-table-tbody>tr:hover, .ant-table-thead>tr.ant-table-row-hover, .ant-table-thead>tr:hover {
+		background-color: transparent;
+	}
+}

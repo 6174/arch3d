@@ -1,0 +1,85 @@
+@header-height: 40px;
+@bottom-close-height: 40px;
+@bottom-open-height: 100px;
+@bottom-plugin-height: 220px;
+
+@right-toolbar-close-width: 230px;
+@right-toolbar-open-width: 200px;
+.app-container {
+	.abs();
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: @color-bg;
+
+	.app-top {
+		height: @header-height;
+		border-bottom: @border;
+		background: @color-bg;
+		padding: 10px;
+		.logo {
+			font-size: 15px;
+			i {
+				font-size: 16px;
+				margin-right: 5px;
+			}
+		}
+	}
+
+	.app-center {
+		.abs();
+		left: 0;
+		right: 0;
+		top: @header-height;
+		bottom: @bottom-close-height;
+		.app-main {
+			.abs();
+			top: 0;
+			left: 0;
+			right: @right-toolbar-close-width;
+			bottom: @bottom-plugin-height;
+			background: @color-bg-d1;
+		    // background: #fefefe;
+		    // background: radial-gradient(ellipse at center, #ffffff 0, #fefefe 44%, #FBFBFB 55%, #E2E2E2 100%);
+		    .arc3d-react-wrapper {
+		    	.abs();
+		    	top: 0;
+		    	left: 0;
+		    	right: 0;
+		    	bottom: 0;
+		    }
+		}
+		.app-right-toolbar {
+			.abs();
+			top: 0;
+			bottom: 0;
+			right: 0;			
+			width: @right-toolbar-close-width;
+			border-left: @border;
+			padding: 4px;
+		}
+	}
+
+	.app-bottom {
+		.abs();
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: @bottom-close-height;
+		border-top: @border;
+		&-plugin-container {
+			position: absolute;
+			bottom: @bottom-close-height;
+			left: 0;
+			right: @right-toolbar-close-width;
+			border-top: @border;
+			height: @bottom-plugin-height;
+			background: @color-bg;
+		}
+	}
+}
+
+.abs{
+	position: absolute;
+}

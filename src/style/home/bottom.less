@@ -1,0 +1,99 @@
+.app-bottom {
+	&-plugin-list {
+		ul {
+			li {
+				display: inline-block;
+				padding: 3px 15px;
+				-webkit-user-select: none;
+				cursor: default;
+				&:hover, &.active{
+					background-color: @color-bg-d1;
+				}
+			}
+		}
+	}
+	&-plugin-container {
+		padding: 3px 8px;
+		overflow-y: auto;
+		.panel-header {
+			padding-left: 30px;
+		}
+	}
+}
+
+.point {
+	@size: 8px;
+	display: inline-block;
+	margin: 0 5px;
+	width: @size;
+	height: @size;
+	background: @color-primary;
+	&-warning {
+		background: @color-warning;
+	}
+
+	&-success {
+		background: @color-success;
+	}
+
+	&-danger {
+		background: @color-danger;
+	}
+}
+
+
+.panel-detail {
+	padding: 5px;
+	h3 {
+		margin: 17px 0;
+		color: #565656;
+	}
+
+	.relations {
+		ul li {
+			border-bottom: @border;
+			padding: 5px; 
+			i {
+				float: right;
+			}
+		}
+		p {
+			margin: 15px 0;
+		}
+	}
+}
+
+.panel-view-setting {
+	> div {
+		height: 100%;
+		> div {
+			height: 100%;
+			padding: 15px;
+			overflow-y: auto;
+		}
+	}
+	.controls {
+		border-right: @border;
+		ul li {
+			padding: 10px 0;
+		}
+	}
+	.list {
+		li.ant-row {
+			position: relative;
+			padding: 10px 0;
+			border-bottom: @border;
+			>i {
+				position: absolute;
+				top: 50%;
+				right: 10px;
+			}
+			img {
+				width: 100%;
+			}
+			.list-item-detail {
+				padding: 0 15px;
+			}
+		}
+	}
+}
