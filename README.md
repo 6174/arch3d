@@ -1,5 +1,7 @@
 ## Arch 3d
 
+> This is not a completed project, it's just a 3d architecture diagram demo.
+
 ![](./doc/demo.png)
 
 ## start
